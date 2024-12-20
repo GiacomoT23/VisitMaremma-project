@@ -1,0 +1,192 @@
+body{
+	background-Image: url('../img/login0.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	overflow:hidden;
+}
+
+
+a:visited, a:link {
+	color: white;
+	font: bold 16px "Arial", "Verdana", "sans-serif";
+	background-color: transparent;
+	text-decoration: none;
+	padding:2px;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:active{
+	color: red;
+}
+
+#index_header{
+	color: rgb(10,40,10);
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+	text-align:center;
+}
+
+#little_index_header{
+	color: rgb(10,40,10);
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	text-align:center;
+}
+
+.header {
+  background-color: rgba(0,0,0,0);
+  padding: 20px;
+  text-align: center;
+}
+
+#index_div_form {
+	background-color: rgba(15,210,180,0.2);
+	position:absolute;
+	top: 40%;
+	left: 34%;
+	width: 24%;
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#index_footer{
+	bottom: 0%;
+	position: absolute;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(100, 100, 100, 0.4);
+	text-shadow: 1px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.legal_form{
+	width: 40%;
+	vertical-align: text-bottom;
+	margin: 15px 0px 0px 0px;
+} 
+
+#content input{
+	width: 80%;
+	padding: 6px 5px 6px 8px;
+	text-align: center;
+	margin: 0;
+	border-style: solid;
+	background: #fff;
+	font: 16px "Arial", "Verdana", "sans-serif";
+	height:30px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+}
+
+#index_div_form input:hover {
+	font-size: 150%;
+	transition: 0.4s;
+}
+
+#content input:focus{
+	border-style: solid;
+	border: 3px solid blue;
+	background-color: rgb(194,242,255);
+}
+
+.campo{
+	width: 90%;
+	padding: 5%;
+}
+
+#content input[type="submit"]{
+	width: 45%;
+	height:40px;
+	background-color: rgb(238,237,232);
+	text-align: center;
+
+}
+
+.error{
+	color:red;
+	font: 14px "Arial", "Verdana", "sans-serif";
+}
+
+@media screen and (max-width: 1200px) {
+	body{
+		background-Image: url('../img/login.jpg');
+	}
+}
+
+@media screen and (max-width: 800px) {
+  #index_div_form {
+	top: 30%;
+	left: 30%;
+	width: 36%;
+	padding: 2%;
+	border-radius: 10px;
+}
+body{
+	background-image: url('../img/login2.jpg');
+	background-size: 100% 100%;
+}
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #index_div_form {
+	top: 30%;
+	left: 20%;
+	width: 56%;
+	padding: 2%;
+	border-radius: 15px;
+}
+#content input{
+	padding: 6px 7px 6px 9px;
+	font: 12px "Arial", "Verdana", "sans-serif";
+}
+#content input[type="submit"]{
+	width: 60%;
+	background-color: rgb(238,237,232);
+	text-align: center;
+
+}
+.header {
+  background-color: rgba(0,0,0,0);
+  padding: 10px;
+  text-align: center;
+}
+#index_header{
+	color: rgb(10,40,10);
+	font-size: 33px;
+	font-style: italic;
+	font-weight: bold;
+}
+#little_index_header{
+	color: rgb(10,40,10);
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+  body{
+	background-image: url('../img/login1.jpg');
+	background-size: 100% 100%;
+}
+.legal_form{
+	width: 100%;
+} 
+}
+

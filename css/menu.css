@@ -1,0 +1,146 @@
+.div_utente{
+	background-color: rgb(51, 136, 24);
+	padding: 10px;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 5px;
+}
+
+.div_utente a{
+	color: white;
+}
+
+.div_utente a:visited{
+	color: white;
+}
+
+.div_utente a:hover{
+	color: red;
+}
+
+.utente{
+	display:inline-block;
+	font: 18px "Arial", "Verdana", "sans-serif";
+	color: white;
+	margin-right:8px;
+	margin-left: 8px;
+	font-style: italic;
+}
+
+.utente_img{
+	display:inline-block;
+	background-image: url('../img/utente.jpg');
+	width:20px;
+	height:20px;
+	background-size: 100% 100%;
+	margin-right:8px;
+	margin-left: 8px;
+}
+
+.logout{
+	display:inline-block;
+	font: 18px "Arial", "Verdana", "sans-serif";
+	margin-right:8px;
+	margin-left: 8px;
+}
+
+.logout_img{
+	display:inline-block;
+	background-image: url('../img/logout.jpg');
+	width:20px;
+	height:20px;
+	background-size: 100% 100%;
+	margin-right:8px;
+	margin-left: 8px;
+}
+
+ul#menu {
+	list-style: none;
+	margin:0;
+	padding:5px 0 5px 0;
+	text-align:center;
+	background-color: rgb(35, 54, 15);
+}
+#menu li {
+	display:inline;
+}
+#menu li a {
+	font: 16px "Arial", "Verdana", "sans-serif";
+	color: white;
+	display:inline-block;
+	padding:14px 25px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 50px;
+	text-decoration: none;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(255, 255, 80);
+}
+
+.selected_link{
+	background-color: rgb(243, 78, 5);
+}
+
+.unselected_link{
+	background-color: rgb(10, 21, 6);
+}
+
+#menu li a:hover{
+	background-color: #F58529;
+}
+
+#menu li a.active {
+	border-width: 4px;
+	background-color: rgb(243, 78, 5);
+}
+
+/*VISITATI E DA VISITARE---------------------------------------------------------------------------------------------------------------*/
+
+.knownPlaces{
+	list-style: none;
+	margin:0;
+	padding:5px 0 5px 0;
+	text-align:center;
+	background-color: rgb(35, 54, 15);
+}
+
+.knownPlaces li{
+	display:inline;
+}
+
+.knownPlaces li a{
+	font: 16px "Arial", "Verdana", "sans-serif";
+	color: white;
+	display:inline-block;
+	padding:14px 25px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 50px;
+	text-decoration: none;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(255, 255, 80);
+}
+
+.knownPlaces li a:hover, .knownPlaces li a.active {
+background-color: #F58529;
+}
+
+@media screen and (max-width: 600px) {
+  #menu li a {
+	font: 14px "Arial", "Verdana", "sans-serif";
+	display:block;
+	padding:8px 25px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 50px;
+	text-decoration: none;
+	border-style:solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(255, 255, 80);
+}
+}

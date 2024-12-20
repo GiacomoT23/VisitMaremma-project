@@ -1,0 +1,171 @@
+/*form---------------------------------------------------------------------------*/
+body{
+	background-Image: url('../img/registrazione.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+}
+
+h2{
+	text-align: center;
+	 font: 30px "Arial", "Verdana", "sans-serif";
+	font-weight: bold;
+	color: rgb(65, 37, 60);
+	text-decoration: underline;
+}
+
+input[type=text], select, textarea, input[type=email], input[type=password], input[type=tel], input[type=url], input[type=file] {
+	width: 60%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font: 14px "Arial", "Verdana", "sans-serif";
+	/*resize: vertical;*/
+}
+
+#counter{
+	width: 8%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font: 14px "Arial", "Verdana", "sans-serif";
+	display: block;
+}
+
+input:focus{
+	border: 3px solid blue;
+	background-color: rgb(194,242,255);
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+	font: 16px "Arial", "Verdana", "sans-serif";
+	font-weight: bold;
+}
+
+input[type=submit] {
+	font: 16px "Arial", "Verdana", "sans-serif";
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 18px;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+#result{
+	text-align: center;
+	font: 24px "Arial", "Verdana", "sans-serif";
+	font-weight: bold;
+	color: rgb(65, 37, 60);
+	text-decoration: underline;
+}
+
+a{
+	font: 16px "Arial", "Verdana", "sans-serif";
+	color:white;
+	background-color:rgb(176, 83,14);
+	border-style:solid;
+	border-width:1px;
+	border-color:red;
+	border-radius:5px;
+	padding: 5px 2px 5px 2px;
+}
+a:visited{
+	color:white;
+}
+
+#termini{
+	font: 16px "Arial", "Verdana", "sans-serif";
+	color:white;
+	background-color:rgb(176, 83,14);
+	border-style:solid;
+	border-width:1px;
+	border-color:red;
+	border-radius:5px;
+	padding: 2px 1px 2px 1px;
+}
+
+.form_error{
+	background-color: rgb(255,129,107);
+	border-style:solid;
+	border-width:2px;
+	border-radius:5px;
+	border-color:red;
+}
+
+.form_normal{
+	background-color: white;
+}
+
+.form_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 2%;
+  width: 80%;
+  left:8%;
+  position: relative;
+}
+
+.col_left {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col_right {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.error{
+	color:red;
+	font: 14px "Arial", "Verdana", "sans-serif";
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*SCHERMI PICCOLI------------------------*/
+@media screen and (max-width: 600px) {
+  .col_left, .col_right, input[type=submit] {
+    width: 100%;
+    /*margin-top: 0;*/
+  }
+  input[type=text], select, input[type=email], input[type=password], input[type=tel] {
+	width: 80%;
+	padding-left: 5%;
+	padding-right: 5%;
+	display:block;
+	padding-top:12px;
+	padding-bottom:12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font: 14px "Arial", "Verdana", "sans-serif";
+	/*resize: vertical;*/
+}
+#counter{
+	width: 15%;
+	padding: 6px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font: 12px "Arial", "Verdana", "sans-serif";
+	display: block;
+} 
+}
